@@ -95,7 +95,7 @@ class Profile extends Component {
                           }}
                           // onError={this.handleErrorImage(true)}
                           // onError={renderNoImage(i.name, true, (v) => this.setState(v))}
-                          alt={i.name.charAt(0)}
+                          alt="none"
                         />
                       )
                     }
