@@ -1,0 +1,146 @@
+
+.profile-container {
+  // background: lightgrey;
+  height: 240px;
+  width: 365px;
+  border: 5px solid black;
+  border-radius: 25px;
+  background: white;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.no-avatar-container {
+  background: skyblue;
+  height: 90px;
+  color: white;
+  width: 92px;
+  height: 90px;
+  border-radius: 65px;
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+  align-items: center;
+}
+
+.profile-item-container {
+  padding: 10px;
+}
+
+.cost-values-container {
+  text-align: right;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.name-occupation-container {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.image-container {
+  display: flex;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+h3,h4,h5 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.text-grey {
+  color: grey;
+  font-weight: bold;
+}
+
+.sub-text-grey {
+  color: grey;
+  font-size: 13px;
+}
+
+body {
+  background: lightgrey;
+}
+
+.impression-count {
+  color: orange;
+  font-weight: 800;
+}
+
+.conversion-count {
+  color: blue;
+  font-weight: 800;
+}
+
+.total-revenue-count {
+  color: green;
+  font-weight: 800;
+}
+
+.sort-profile-container {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 0px 35px;
+  display: flex; 
+  justify-content: space-between;
+  padding: 0px 15px;
+
+  & h2 {
+    margin: 10px 0px !important
+  }
+}
+
+.sort-container {
+ display: flex;
+ align-items: center;
+ font-size: 20px;
+ cursor: pointer;
+}
+
+.sort-menu-container {
+  position: absolute;
+  border: 1px solid lightgrey;
+  background: white;
+  right: 34px;
+  top: 79px;
+  height: 200px;
+  overflow-y: scroll;
+  font-weight: 100 !important;
+  width: 200px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+
+  & > span {
+    padding: 10px 15px;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-bottom: 1px solid lightgrey;
+
+    &:hover {
+      background: rgba(grey, 0.1);
+    }
+  }
+}
+
+.selected-sort-item {
+  padding-left: 10px;
+  font-weight: normal;
+  text-transform: capitalize !important;
+  color: grey;
+  font-size: 15px;
+}
+
+.graph-cost-container {
+  display: flex;
+  justify-content: space-between;
+}
